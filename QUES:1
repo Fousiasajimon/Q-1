@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>FRAMES</title>
+
+</head>
+<style>
+    body {
+        margin-trim:  6px;
+        padding: 2px;
+    }
+    .con {
+        display:flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .F1 {
+        background: radial-gradient( hsla(95, 88%, 68%, 0.988), #4dcb3a);
+       
+        flex-basis: 50%;
+    }
+    .F2 {
+        
+        background: radial-gradient( hsla(261, 64%, 53%, 0.988), #79e7ef);
+
+        flex-basis: 50%;
+    }
+    .c {
+        display:flex;
+        flex-direction:row;
+    }
+    .col{
+        flex-basis: 50%;
+    }
+</style>
+<body>
+<div class="con">
+    <div class="F1">
+        <div class="c">
+            <div class="col">Column 1</div>
+            <div class="col">Column 2</div>
+        </div>
+    </div>
+    <div class="F2">
+        <div class="c">
+            <div class="col">Column 3</div>
+            <div class="col">Column 4</div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
